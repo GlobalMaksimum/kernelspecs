@@ -1,5 +1,5 @@
 {
-  "display_name": "Che Local",
+  "display_name": "scala",
   "language": "scala", 
   "metadata": {
     "process_proxy": {
@@ -7,7 +7,7 @@
     }
   },
   "env": {
-    "KERNEL_WORKING_DIR":"/home/jovyan"
+    "PATH":"/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
   },
   "argv": [
     "java",
