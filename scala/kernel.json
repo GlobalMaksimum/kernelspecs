@@ -1,0 +1,26 @@
+{
+  "display_name": "Che Local",
+  "language": "scala", 
+  "metadata": {
+    "process_proxy": {
+      "class_name": "enterprise_gateway.services.processproxies.che.CheProcessProxy"
+    }
+  },
+  "env": {
+    "KERNEL_WORKING_DIR":"/home/jovyan"
+  },
+  "argv": [
+    "java",
+    "-jar",
+    "/home/jovyan/launcher.jar",
+    "launch",
+    "almond",
+    "--",
+    "--log",
+    "debug",
+    "--log-to",
+    "/home/jovyan/almond.logs",
+    "--connection-file",
+    "{connection_file}"
+  ]
+} 
