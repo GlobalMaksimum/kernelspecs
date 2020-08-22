@@ -1,0 +1,16 @@
+{
+  "display_name": "python",
+  "language": "python", 
+  "metadata": {
+    "process_proxy": {
+      "class_name": "enterprise_gateway.services.processproxies.che.CheProcessProxy"
+    }
+  },
+  "argv": [
+    "python",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "{connection_file}"
+  ]
+}
